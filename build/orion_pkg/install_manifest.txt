@@ -4,9 +4,9 @@
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
-/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_subpub.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/publisher.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/subscriber.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_sub.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/joystick_commands.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/inputs.py
@@ -14,7 +14,7 @@
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/subscriber.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/joystick_commands.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/inputs.py
-/home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/Joystick_subpub.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/Joystick_sub.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.xml
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.yaml
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsublaunch.py

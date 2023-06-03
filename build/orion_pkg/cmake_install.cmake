@@ -72,7 +72,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/templates/subscriber.py"
     "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/joystick/joystick_commands.py"
     "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/joystick/inputs.py"
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/Joystick_subpub.py"
+    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/Joystick_sub.py"
     )
 endif()
 

@@ -21,8 +21,8 @@ def generate_launch_description():
         ),
         Node(
             package='orion_pkg',
-            executable='Joystick_subpub.py',
-            name='Joy_subpub',
+            executable='Joystick_sub.py',
+            name='Joy_sub',
             output= 'screen'
         ),
     ])

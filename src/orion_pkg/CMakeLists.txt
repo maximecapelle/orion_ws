@@ -19,7 +19,7 @@ install(PROGRAMS
   scripts/templates/subscriber.py
   scripts/joystick/joystick_commands.py
   scripts/joystick/inputs.py
-  scripts/Joystick_subpub.py
+  scripts/Joystick_sub.py
   DESTINATION lib/${PROJECT_NAME}
 )
 # uncomment the following section in order to fill in
