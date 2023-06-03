@@ -1,0 +1,54 @@
+Built target ament_cmake_python_copy_scripts
+running egg_info
+writing scripts.egg-info/PKG-INFO
+writing dependency_links to scripts.egg-info/dependency_links.txt
+writing top-level names to scripts.egg-info/top_level.txt
+reading manifest file 'scripts.egg-info/SOURCES.txt'
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_scripts_egg
+-- Install configuration: ""
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.sh
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_subpub.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/publisher.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/subscriber.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/joystick_commands.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/inputs.py
+Listing '/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts'...
+Compiling '/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_subpub.py'...
+Listing '/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick'...
+Listing '/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates'...
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/publisher.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/subscriber.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/joystick_commands.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/inputs.py
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/Joystick_subpub.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.xml
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.yaml
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsublaunch.py
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.sh
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.dsv
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.bash
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.sh
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.zsh
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.dsv
+-- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.dsv
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/packages/orion_pkg
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig.cmake
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig-version.cmake
+-- Up-to-date: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.xml

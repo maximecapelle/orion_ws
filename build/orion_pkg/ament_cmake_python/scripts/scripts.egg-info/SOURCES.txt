@@ -1,4 +1,5 @@
 setup.py
+scripts/Joystick_subpub.py
 scripts/__init__.py
 scripts/exo_joystick_code.py
 scripts/inputs.py
