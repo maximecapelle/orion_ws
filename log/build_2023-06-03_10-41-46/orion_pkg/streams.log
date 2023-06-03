@@ -1,0 +1,42 @@
+[0.073s] Invoking command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maxcap/Workspaces/orion_ws/src/orion_pkg -DCMAKE_INSTALL_PREFIX=/home/maxcap/Workspaces/orion_ws/install/orion_pkg
+[0.458s] -- The C compiler identification is GNU 11.3.0
+[0.910s] -- The CXX compiler identification is GNU 11.3.0
+[0.958s] -- Detecting C compiler ABI info
+[1.566s] -- Detecting C compiler ABI info - done
+[1.622s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.625s] -- Detecting C compile features
+[1.628s] -- Detecting C compile features - done
+[1.652s] -- Detecting CXX compiler ABI info
+[2.192s] -- Detecting CXX compiler ABI info - done
+[2.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.267s] -- Detecting CXX compile features
+[2.279s] -- Detecting CXX compile features - done
+[2.297s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.412s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.963s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.582s] -- Added test 'lint_cmake' to check CMake code style
+[4.595s] -- Added test 'xmllint' to check XML markup files
+[4.615s] -- Configuring done
+[4.715s] -- Generating done
+[4.739s] -- Build files have been written to: /home/maxcap/Workspaces/orion_ws/build/orion_pkg
+[4.761s] Invoked command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maxcap/Workspaces/orion_ws/src/orion_pkg -DCMAKE_INSTALL_PREFIX=/home/maxcap/Workspaces/orion_ws/install/orion_pkg
+[4.774s] Invoking command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maxcap/Workspaces/orion_ws/build/orion_pkg -- -j2 -l2
+[5.051s] Invoked command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maxcap/Workspaces/orion_ws/build/orion_pkg -- -j2 -l2
+[5.283s] Invoking command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maxcap/Workspaces/orion_ws/build/orion_pkg
+[5.359s] -- Install configuration: ""
+[5.359s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg
+[5.360s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg
+[5.360s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh
+[5.361s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.dsv
+[5.361s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.sh
+[5.361s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.dsv
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.bash
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.sh
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.zsh
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.dsv
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.dsv
+[5.362s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/packages/orion_pkg
+[5.363s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig.cmake
+[5.363s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig-version.cmake
+[5.364s] -- Installing: /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.xml
+[5.397s] Invoked command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maxcap/Workspaces/orion_ws/build/orion_pkg

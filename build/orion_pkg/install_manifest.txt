@@ -1,0 +1,15 @@
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.dsv
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.sh
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.dsv
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.bash
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.sh
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.zsh
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.dsv
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.dsv
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/packages/orion_pkg
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig.cmake
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig-version.cmake
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/package.xml
