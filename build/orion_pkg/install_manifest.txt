@@ -6,9 +6,16 @@
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/joystick_commands.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/inputs.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/publisher.py
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/subscriber.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/joystick_commands.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/lib/orion_pkg/inputs.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsublaunch.py
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsub_launch.xml
+/home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsub_launch.yaml
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg
 /home/maxcap/Workspaces/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh

@@ -1,5 +1,8 @@
 setup.py
 scripts/__init__.py
+scripts/exo_joystick_code.py
+scripts/inputs.py
+scripts/joystick_commands.py
 scripts/publisher.py
 scripts/subscriber.py
 scripts.egg-info/PKG-INFO

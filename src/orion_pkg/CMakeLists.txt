@@ -11,11 +11,14 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclpy REQUIRED)
 
+
 ament_python_install_package(scripts)
 
 install(PROGRAMS
   scripts/publisher.py
   scripts/subscriber.py
+  scripts/joystick/joystick_commands.py
+  scripts/joystick/inputs.py
   DESTINATION lib/${PROJECT_NAME}
 )
 # uncomment the following section in order to fill in
@@ -33,5 +36,11 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+# Install launch files.
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 ament_package()
