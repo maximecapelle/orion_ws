@@ -1,0 +1,4 @@
+Invoking command in '/Code/orion_ws/build/orion_pkg': /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+Invoking command in '/Code/orion_ws/build/orion_pkg': /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg
+Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg

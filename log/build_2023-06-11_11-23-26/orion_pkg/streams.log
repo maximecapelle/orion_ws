@@ -1,0 +1,58 @@
+[0.009s] Invoking command in '/Code/orion_ws/build/orion_pkg': /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+[0.113s] Built target ament_cmake_python_copy_scripts
+[0.412s] running egg_info
+[0.413s] writing scripts.egg-info/PKG-INFO
+[0.414s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.414s] writing top-level names to scripts.egg-info/top_level.txt
+[0.417s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.470s] Built target ament_cmake_python_build_scripts_egg
+[0.483s] Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+[0.558s] Invoking command in '/Code/orion_ws/build/orion_pkg': /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg
+[0.571s] -- Install configuration: ""
+[0.571s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.sh
+[0.571s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.dsv
+[0.571s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[0.571s] -- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.575s] -- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.575s] -- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.575s] -- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.575s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts
+[0.575s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates
+[0.575s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/publisher.py
+[0.575s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/subscriber.py
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_sub.py
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/StreamingMode.py
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/joystick_commands.py
+[0.576s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/inputs.py
+[0.619s] Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts'...
+[0.619s] Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick'...
+[0.619s] Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates'...
+[0.632s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/publisher.py
+[0.632s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/subscriber.py
+[0.634s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/joystick_commands.py
+[0.635s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/inputs.py
+[0.635s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/Joystick_sub.py
+[0.635s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch
+[0.635s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.xml
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.yaml
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsublaunch.py
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg
+[0.636s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.dsv
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.sh
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.dsv
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.bash
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.sh
+[0.637s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.zsh
+[0.649s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.dsv
+[0.649s] -- Installing: /Code/orion_ws/install/orion_pkg/share/orion_pkg/package.dsv
+[0.649s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/packages/orion_pkg
+[0.649s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig.cmake
+[0.649s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig-version.cmake
+[0.649s] -- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/package.xml
+[0.650s] Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg

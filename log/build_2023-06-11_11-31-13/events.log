@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (orion_pkg) JobQueued: {'identifier': 'orion_pkg', 'dependencies': OrderedDict()}
+[0.000687] (orion_pkg) JobStarted: {'identifier': 'orion_pkg'}
+[0.007814] (orion_pkg) JobProgress: {'identifier': 'orion_pkg', 'progress': 'cmake'}
+[0.008436] (orion_pkg) JobProgress: {'identifier': 'orion_pkg', 'progress': 'build'}
+[0.009187] (orion_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Code/orion_ws/build/orion_pkg', '--', '-j2', '-l2'], 'cwd': '/Code/orion_ws/build/orion_pkg', 'env': OrderedDict([('HOSTNAME', 'a558e1085c97'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/Code/orion_ws'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('PWD', '/Code/orion_ws/build/orion_pkg'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.091195] (-) TimerEvent: {}
+[0.093248] (orion_pkg) StdoutLine: {'line': b'Built target ament_cmake_python_copy_scripts\n'}
+[0.191613] (-) TimerEvent: {}
+[0.281856] (orion_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.282549] (orion_pkg) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[0.283020] (orion_pkg) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[0.283481] (orion_pkg) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[0.285681] (orion_pkg) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.286646] (orion_pkg) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.292281] (-) TimerEvent: {}
+[0.310815] (orion_pkg) StdoutLine: {'line': b'Built target ament_cmake_python_build_scripts_egg\n'}
+[0.324217] (orion_pkg) CommandEnded: {'returncode': 0}
+[0.356495] (orion_pkg) JobProgress: {'identifier': 'orion_pkg', 'progress': 'install'}
+[0.367110] (orion_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Code/orion_ws/build/orion_pkg'], 'cwd': '/Code/orion_ws/build/orion_pkg', 'env': OrderedDict([('HOSTNAME', 'a558e1085c97'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/Code/orion_ws'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('PWD', '/Code/orion_ws/build/orion_pkg'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.383710] (orion_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.383877] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.sh\n'}
+[0.384006] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/pythonpath.dsv\n'}
+[0.384093] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info\n'}
+[0.384154] (orion_pkg) StdoutLine: {'line': b'-- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.384214] (orion_pkg) StdoutLine: {'line': b'-- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.384273] (orion_pkg) StdoutLine: {'line': b'-- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.384332] (orion_pkg) StdoutLine: {'line': b'-- Installing: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.384439] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts\n'}
+[0.384525] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates\n'}
+[0.384584] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/publisher.py\n'}
+[0.384654] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates/subscriber.py\n'}
+[0.384739] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/Joystick_sub.py\n'}
+[0.384811] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/StreamingMode.py\n'}
+[0.384909] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[0.384971] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick\n'}
+[0.385029] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/joystick_commands.py\n'}
+[0.385086] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick/inputs.py\n'}
+[0.393394] (-) TimerEvent: {}
+[0.413381] (orion_pkg) StdoutLine: {'line': b"Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts'...\n"}
+[0.413571] (orion_pkg) StdoutLine: {'line': b"Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/joystick'...\n"}
+[0.413642] (orion_pkg) StdoutLine: {'line': b"Listing '/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts/templates'...\n"}
+[0.417670] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/publisher.py\n'}
+[0.417928] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/subscriber.py\n'}
+[0.418056] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/joystick_commands.py\n'}
+[0.418198] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/inputs.py\n'}
+[0.418314] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/lib/orion_pkg/Joystick_sub.py\n'}
+[0.418412] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch\n'}
+[0.418478] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers\n'}
+[0.418663] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.xml\n'}
+[0.418797] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/other_launchers/pubsub_launch.yaml\n'}
+[0.418897] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg//launch/pubsublaunch.py\n'}
+[0.419287] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/package_run_dependencies/orion_pkg\n'}
+[0.419363] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/parent_prefix_path/orion_pkg\n'}
+[0.419431] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.sh\n'}
+[0.419627] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/ament_prefix_path.dsv\n'}
+[0.419700] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.sh\n'}
+[0.419766] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/environment/path.dsv\n'}
+[0.419832] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.bash\n'}
+[0.419896] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.sh\n'}
+[0.420018] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.zsh\n'}
+[0.420291] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/local_setup.dsv\n'}
+[0.420409] (orion_pkg) StdoutLine: {'line': b'-- Installing: /Code/orion_ws/install/orion_pkg/share/orion_pkg/package.dsv\n'}
+[0.420493] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/ament_index/resource_index/packages/orion_pkg\n'}
+[0.420559] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig.cmake\n'}
+[0.420646] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/cmake/orion_pkgConfig-version.cmake\n'}
+[0.420723] (orion_pkg) StdoutLine: {'line': b'-- Up-to-date: /Code/orion_ws/install/orion_pkg/share/orion_pkg/package.xml\n'}
+[0.434050] (orion_pkg) CommandEnded: {'returncode': 0}
+[0.493698] (-) TimerEvent: {}
+[0.494045] (orion_pkg) JobEnded: {'identifier': 'orion_pkg', 'rc': 0}
+[0.495620] (-) EventReactorShutdown: {}

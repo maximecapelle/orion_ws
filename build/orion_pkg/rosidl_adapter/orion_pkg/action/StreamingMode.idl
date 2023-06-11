@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from orion_pkg/action/StreamingMode.action
+// generated code does not contain a copyright notice
+
+#include "orion_pkg/msg/String.idl"
+
+module orion_pkg {
+  module action {
+    struct StreamingMode_Goal {
+      sequence<int32> buttons;
+    };
+    struct StreamingMode_Result {
+      orion_pkg::msg::String end_confirm;
+    };
+    struct StreamingMode_Feedback {
+      @verbatim (language="comment", text=
+        "image height, that is, number of rows")
+      uint32 height;
+
+      @verbatim (language="comment", text=
+        "image width, that is, number of columns")
+      uint32 width;
+
+      @verbatim (language="comment", text=
+        "Encoding of pixels -- channel meaning, ordering, size taken from the list of strings in include/sensor_msgs/image_encodings.h")
+      string encoding;
+
+      @verbatim (language="comment", text=
+        "is this data bigendian?")
+      uint8 is_bigendian;
+
+      @verbatim (language="comment", text=
+        "Full row length in bytes")
+      uint32 step;
+
+      @verbatim (language="comment", text=
+        "actual matrix data, size is (step * rows)")
+      sequence<uint8> data;
+    };
+  };
+};

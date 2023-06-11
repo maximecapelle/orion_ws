@@ -1,0 +1,6 @@
+Invoking command in '/Code/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Code/orion_ws/src/orion_pkg -DCMAKE_INSTALL_PREFIX=/Code/orion_ws/install/orion_pkg
+Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Code/orion_ws/src/orion_pkg -DCMAKE_INSTALL_PREFIX=/Code/orion_ws/install/orion_pkg
+Invoking command in '/Code/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Code/orion_ws/build/orion_pkg -- -j2 -l2
+Invoking command in '/Code/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg
+Invoked command in '/Code/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Code/orion_ws/build/orion_pkg

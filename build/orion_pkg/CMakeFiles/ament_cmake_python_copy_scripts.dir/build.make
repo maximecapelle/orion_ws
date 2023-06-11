@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxcap/Workspaces/orion_ws/src/orion_pkg
+CMAKE_SOURCE_DIR = /Code/orion_ws/src/orion_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxcap/Workspaces/orion_ws/build/orion_pkg
+CMAKE_BINARY_DIR = /Code/orion_ws/build/orion_pkg
 
 # Utility rule file for ament_cmake_python_copy_scripts.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_scripts.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_scripts.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_scripts:
-	/usr/bin/cmake -E copy_directory /home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts /home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_python/scripts/scripts
+	/usr/bin/cmake -E copy_directory /Code/orion_ws/src/orion_pkg/scripts /Code/orion_ws/build/orion_pkg/ament_cmake_python/scripts/scripts
 
 ament_cmake_python_copy_scripts: CMakeFiles/ament_cmake_python_copy_scripts
 ament_cmake_python_copy_scripts: CMakeFiles/ament_cmake_python_copy_scripts.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_scripts.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_scripts.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_scripts.dir/depend:
-	cd /home/maxcap/Workspaces/orion_ws/build/orion_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxcap/Workspaces/orion_ws/src/orion_pkg /home/maxcap/Workspaces/orion_ws/src/orion_pkg /home/maxcap/Workspaces/orion_ws/build/orion_pkg /home/maxcap/Workspaces/orion_ws/build/orion_pkg /home/maxcap/Workspaces/orion_ws/build/orion_pkg/CMakeFiles/ament_cmake_python_copy_scripts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Code/orion_ws/build/orion_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Code/orion_ws/src/orion_pkg /Code/orion_ws/src/orion_pkg /Code/orion_ws/build/orion_pkg /Code/orion_ws/build/orion_pkg /Code/orion_ws/build/orion_pkg/CMakeFiles/ament_cmake_python_copy_scripts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_scripts.dir/depend
 

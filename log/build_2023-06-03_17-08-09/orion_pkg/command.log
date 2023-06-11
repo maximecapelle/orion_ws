@@ -1,4 +1,0 @@
-Invoking command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maxcap/Workspaces/orion_ws/build/orion_pkg -- -j2 -l2
-Invoked command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maxcap/Workspaces/orion_ws/build/orion_pkg -- -j2 -l2
-Invoking command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maxcap/Workspaces/orion_ws/build/orion_pkg
-Invoked command in '/home/maxcap/Workspaces/orion_ws/build/orion_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maxcap/Workspaces/orion_ws/build/orion_pkg

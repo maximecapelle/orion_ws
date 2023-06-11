@@ -1,8 +1,8 @@
-# Install script for directory: /home/maxcap/Workspaces/orion_ws/src/orion_pkg
+# Install script for directory: /Code/orion_ws/src/orion_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maxcap/Workspaces/orion_ws/install/orion_pkg")
+  set(CMAKE_INSTALL_PREFIX "/Code/orion_ws/install/orion_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,49 +43,49 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_python/scripts/scripts.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_python/scripts/scripts.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/scripts" TYPE DIRECTORY FILES "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/scripts" TYPE DIRECTORY FILES "/Code/orion_ws/src/orion_pkg/scripts/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3.10" "-m" "compileall"
-        "/home/maxcap/Workspaces/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts"
+        "/Code/orion_ws/install/orion_pkg/local/lib/python3.10/dist-packages/scripts"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orion_pkg" TYPE PROGRAM FILES
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/templates/publisher.py"
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/templates/subscriber.py"
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/joystick/joystick_commands.py"
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/joystick/inputs.py"
-    "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/scripts/Joystick_sub.py"
+    "/Code/orion_ws/src/orion_pkg/scripts/templates/publisher.py"
+    "/Code/orion_ws/src/orion_pkg/scripts/templates/subscriber.py"
+    "/Code/orion_ws/src/orion_pkg/scripts/joystick/joystick_commands.py"
+    "/Code/orion_ws/src/orion_pkg/scripts/joystick/inputs.py"
+    "/Code/orion_ws/src/orion_pkg/scripts/Joystick_sub.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/" TYPE DIRECTORY FILES "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/" TYPE DIRECTORY FILES "/Code/orion_ws/src/orion_pkg/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/orion_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/orion_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/orion_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/orion_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -93,7 +93,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -101,42 +101,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/environment" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/packages/orion_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/Code/orion_ws/build/orion_pkg/ament_cmake_index/share/ament_index/resource_index/packages/orion_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg/cmake" TYPE FILE FILES
-    "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_core/orion_pkgConfig.cmake"
-    "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/ament_cmake_core/orion_pkgConfig-version.cmake"
+    "/Code/orion_ws/build/orion_pkg/ament_cmake_core/orion_pkgConfig.cmake"
+    "/Code/orion_ws/build/orion_pkg/ament_cmake_core/orion_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/home/maxcap/Workspaces/orion_ws/src/orion_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orion_pkg" TYPE FILE FILES "/Code/orion_ws/src/orion_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -147,5 +147,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maxcap/Workspaces/orion_ws/build/orion_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Code/orion_ws/build/orion_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

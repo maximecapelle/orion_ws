@@ -1,0 +1,6 @@
+{
+  "package_name": "orion_pkg",
+  "non_idl_tuples": [
+    "/Code/orion_ws/src/orion_pkg:action/StreamingMode.action"
+  ]
+}

@@ -1,12 +1,7 @@
 setup.py
 scripts/Joystick_sub.py
-scripts/Joystick_subpub.py
+scripts/StreamingMode.py
 scripts/__init__.py
-scripts/exo_joystick_code.py
-scripts/inputs.py
-scripts/joystick_commands.py
-scripts/publisher.py
-scripts/subscriber.py
 scripts.egg-info/PKG-INFO
 scripts.egg-info/SOURCES.txt
 scripts.egg-info/dependency_links.txt
